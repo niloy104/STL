@@ -208,5 +208,14 @@ int main()
     else
         cout << "Not found";
 
-    return 0;
+
+
+
+    string str="ab bc cd ef gh ij";
+    stringstream stream(str);
+    string s;
+    while(stream>>s)
+    {
+        cout<<s;
+    }
 }
